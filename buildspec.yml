@@ -1,1 +1,11 @@
-chmod +x scripts/install.sh
+version: 0.2
+
+phases:
+  build:
+    commands:
+      - chmod +x scripts/install.sh
+      - chmod +x scripts/start.sh
+
+artifacts:
+  files:
+    - '**/*'
