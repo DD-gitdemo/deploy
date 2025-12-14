@@ -1,9 +1,1 @@
-version: 0.2
-
-phases:
-  build:
-    commands:
-      - chmod +x scripts/*.sh
-artifacts:
-  files:
-    - '**/*'
+chmod +x scripts/install.sh
